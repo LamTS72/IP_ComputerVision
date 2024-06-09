@@ -1,0 +1,6 @@
+*.txt
+*.h5
+
+# Remove previously tracked .txt files from the index
+git rm --cached *.txt
+git rm --cached *.h5
